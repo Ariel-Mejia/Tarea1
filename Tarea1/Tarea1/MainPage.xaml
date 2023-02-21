@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea1.MainPage">
+
+    <StackLayout BackgroundColor="#f3eae8">
+        <Frame BackgroundColor="#2196F" Padding="24" CornerRadius="0" >
+            <Label Text="Calculadora" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        </Frame>
+        <Label Text="Numero 1" FontSize="Title" Padding="20,10,20,0" TextColor="Black" />
+        <Entry x:Name="numero1" Placeholder="" Keyboard="Numeric" Margin="20,0,20,10" BackgroundColor="#2093d8"/>
+
+        <Label Text="Numero 2" FontSize="Title" Padding="20,10,20,0" TextColor="Black" />
+        <Entry x:Name="numero2" Placeholder="" Keyboard="Numeric" Margin="20,0,20,10" BackgroundColor="#2093D8" />
+
+        <Button Text="Suma" x:Name="btnsuma" Clicked="btnsuma_Clicked" BackgroundColor="#EFC966" TextColor="Black" Margin="20,10,20,0"/>
+
+        <Button Text="Resta" x:Name="btnresta" Clicked="btnresta_Clicked" BackgroundColor="#EFC966" TextColor="Black" Margin="20,10,20,0"/>
+
+        <Button Text="Division" x:Name="btndivision" Clicked="btndivision_Clicked" BackgroundColor="#EFC966" TextColor="Black" Margin="20,10,20,0" />
+
+        <Button Text="Multiplicacion" x:Name="btnmultiplicacion" Clicked="btnmultiplicacion_Clicked" BackgroundColor="#EFC966" TextColor="Black" Margin="20,10,20,0" />
+
+
+    </StackLayout>
+
+</ContentPage>
